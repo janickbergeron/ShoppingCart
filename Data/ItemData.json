@@ -1,0 +1,58 @@
+[
+    {
+        "Name": "Televison",
+        "Price": "79.99"
+    },
+    {
+        "Name": "Bookshelf",
+        "Price": "39.99"
+    },
+    {
+        "Name": "Shovel",
+        "Price": "19.99"
+    },
+    {
+        "Name": "Wallet",
+        "Price": "4.99"
+    },
+    {
+        "Name": "Pen",
+        "Price": "1.99"
+    },
+    {
+        "Name": "Shampoo",
+        "Price": "3.99"
+    },
+    {
+        "Name": "Cell Phone",
+        "Price": "199.99"
+    },
+    {
+        "Name": "Hair Brush",
+        "Price": "4.99"
+    },
+    {
+        "Name": "Paper",
+        "Price": "2.99"
+    },
+    {
+        "Name": "Chocolate",
+        "Price": "1.99"
+    },
+    {
+        "Name": "Fake Flowers",
+        "Price": "3.99"
+    },
+    {
+        "Name": "Bananas",
+        "Price": "0.69"
+    },
+    {
+        "Name": "Controller",
+        "Price": "69.99"
+    },
+    {
+        "Name": "Piano",
+        "Price": "1299.99"
+    }
+]
