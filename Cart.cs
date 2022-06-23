@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace ShoppingCart
 {
-    internal class Cart
+    public class Cart
     {
         public static float cartTotal;
         public static List<Item> cartContent = new List<Item>();
@@ -84,6 +85,7 @@ namespace ShoppingCart
         }
         public static void CartPayment()
         {
+            float Total = cartTotal + CartTaxes();
                 string menu = "╔═════════════════════════════════╗\n" +
                               "║             Payment             ║\n";
                 int index = 1;
@@ -95,7 +97,7 @@ namespace ShoppingCart
                 menu += "║                                 ║\n";
                 menu += String.Format("║    Sub total        {0,8} $  ║\n", cartTotal.ToString("0.00"));
                 menu += String.Format("║    Taxes        {0,12} $  ║\n", CartTaxes().ToString("0.00"));
-                menu += String.Format("║    Total       {0,13} $  ║\n", cartTotal.ToString("0.00")+CartTaxes().ToString("0.00"));
+                menu += String.Format("║    Total       {0,13} $  ║\n", Total.ToString("0.00"));
                 menu += "║                                 ║\n" +
                         "╚═════════════════════════════════╝\n";
                 Console.WriteLine(menu);

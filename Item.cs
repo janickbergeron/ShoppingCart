@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ShoppingCart
 {
-    internal class Item
+    public class Item
     {
         private string _name;
         private float _price;
